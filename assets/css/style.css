@@ -1,0 +1,39 @@
+
+#curr-time {
+    font-size: 32px;
+}
+
+#curr-time,
+.new-alarm,
+h1,
+#active-alarm {
+    text-align: center;
+    font-weight: bold;
+}
+
+.new-alarm,
+.inputs,
+#active-alarm {
+    margin-top: 20px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+}
+
+.inputs,
+#alarm-text {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: black;
+    padding: 8px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#active-alarm {
+    display: none;
+}
